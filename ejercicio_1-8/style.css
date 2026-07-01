@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display: flex;
+    background-color: #7b0662;
+    padding: 10px;
+    height: 590px;
+    justify-content: space;
+}
+
+.caja {
+    background-color: #ff9800;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.a { order: 2; }
+.b { order: 1; }
+.c { order: 3; }
+.d { order: 4; }
